@@ -3,23 +3,20 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack'
 
 const Tab = createNativeStackNavigator();
 
-import Cadastro from "./Cadastro";
 import Login from "./Login";
-import Tabs from "./Tabs";
+import Home from "./Home";
 
 export default function Rotas() {
     return (
         <NavigationContainer>
             <Tab.Navigator>
                 <Tab.Screen
-                    name="Login" component={Login} options={{ headerShown: false }}
-                />
+                    name="Login" component={Login} 
+                    options={{ title: 'Login' }}
+                />               
                 <Tab.Screen
-                    name="Cadastro" component={Cadastro} options={{ headerShown: false }}
-                />
-                <Tab.Screen
-                    name="Tabs" component={Tabs} options={{ headerShown: false }}
-                />
+                    name="Home" component={Home} options={{ title: 'Home' }}
+                />               
             </Tab.Navigator>
         </NavigationContainer>
     )

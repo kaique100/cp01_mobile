@@ -1,14 +1,15 @@
-import { StatusBar } from 'expo-status-bar';
-import React from 'react';
+
 import { StyleSheet, Text, View } from 'react-native';
-import Rotas from './src/rotas';
+
+import React from 'react';
+import Rotas from './src/Rotas';
+// App.js
+
 
 export default function App() {
-  return (
-    
-      <Rotas/>
-  );
+  return <Rotas />;
 }
+
 
 const styles = StyleSheet.create({
   container: {
