@@ -27,6 +27,7 @@ Antes de começar, certifique-se de ter as seguintes ferramentas instaladas:
 
 - Node.js v14+ ou superior
 - npm (ou yarn) para gerenciamento de pacotes
+- Login {usuario: Kaique, senha: 123}
 
 ### Instalação
 
