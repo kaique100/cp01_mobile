@@ -1,4 +1,3 @@
-Aqui está um modelo de README para um aplicativo que realiza login e exibe imagens, desenvolvido por uma equipe de 5 integrantes. O foco deste README é fornecer instruções claras para usuários e desenvolvedores que desejam configurar e executar o projeto.
 
 ---
 
